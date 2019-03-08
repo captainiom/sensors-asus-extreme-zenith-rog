@@ -1,0 +1,94 @@
+This is for the developer of ASUS sensor on their extreme rog motherboard
+It is hosting a threadripper 2990wx with 32 cores
+The BIOS is 1607
+The code has been created using GCC
+The sensor output follows
+
+Here is the output without analysis:-
+
+ath10k_hwmon-pci-0300
+Adapter: PCI adapter
+temp1: +51.0°C
+
+k10temp-pci-00db
+Adapter: PCI adapter
+Tdie: +58.4°C (high = +70.0°C)
+Tctl: +85.4°C
+
+k10temp-pci-00cb
+Adapter: PCI adapter
+Tdie: +60.9°C (high = +70.0°C)
+Tctl: +87.9°C
+
+nouveau-pci-4100
+Adapter: PCI adapter
+GPU core: +0.91 V (min = +0.80 V, max = +1.19 V)
+temp1: +42.0°C (high = +95.0°C, hyst = +3.0°C)
+(crit = +105.0°C, hyst = +5.0°C)
+(emerg = +135.0°C, hyst = +5.0°C)
+
+asuswmisensors-isa-0000
+Adapter: ISA adapter
+CPU Core Voltage: +1.18 V
+CPU SOC Voltage: +1.09 V
+DRAM AB Voltage: +1.35 V
+DRAM CD Voltage: +1.37 V
+1.8V PLL Voltage: +1.74 V
++12V Voltage: +11.90 V
++5V Voltage: +4.96 V
+3VSB Voltage: +3.33 V
+VBAT Voltage: +3.16 V
+AVCC3 Voltage: +3.33 V
+SB 1.05V Voltage: +1.05 V
+CPU Core Voltage: +0.99 V
+CPU SOC Voltage: +0.98 V
+DRAM AB Voltage: +1.37 V
+DRAM CD Voltage: +1.36 V
+CPU Fan: 1236 RPM
+Chassis Fan 1: 1126 RPM
+Chassis Fan 2: 0 RPM
+HAMP Fan: 1225 RPM
+Water Pump 1: 4787 RPM
+CPU OPT: 1243 RPM
+Water Flow: 0 RPM
+Waterblock Flow: 0 RPM
+EXT Fan 1: 0 RPM
+EXT Fan 2: 0 RPM
+EXT Fan 3: 0 RPM
+Cover Fan: 5773 RPM
+CPU Temperature: +64.0°C
+CPU Socket Temperature: +55.0°C
+Motherboard Temperature: +29.0°C
+Chipset Temperature: +54.0°C
+Tsensor 1 Temperature: +216.0°C
+CPU VRM Temperature: +78.0°C
+Water In: +216.0°C
+Water Out: +216.0°C
+Waterblock In: +216.0°C
+Waterblock Out: +216.0°C
+EXT Tsensor 1: +0.0°C
+EXT Tsensor 2: +0.0°C
+EXT Tsensor 3: +0.0°C
+Tsensor 2 Temperature: +216.0°C
+DIMM.2 Tsensor 1 Temperature: +216.0°C
+DIMM.2 Tsensor 2 Temperature: +216.0°C
+CPU VRM Output Current: +175.00 A
+
+asus-isa-0000
+Adapter: ISA adapter
+cpu_fan: 0 RPM
+
+k10temp-pci-00d3
+Adapter: PCI adapter
+Tdie: +60.5°C (high = +70.0°C)
+Tctl: +87.5°C
+
+k10temp-pci-00c3
+Adapter: PCI adapter
+Tdie: +63.0°C (high = +70.0°C)
+Tctl: +90.0°C 
+
+An analysis of what is right and what is wrong from the developer would be helpful
+If direct contact is required please use demo@manx.net
+I will be delighted to help
+jsm
